@@ -1,0 +1,47 @@
+CyR SEGURIDAD - SITIO DEMOSTRATIVO
+
+1. Abre index.html para probarlo en el navegador.
+2. WhatsApp configurado: +51 975 506 704. Para cambiarlo, edita CONFIG.whatsapp en script.js.
+3. Correo configurado: cmicolthy@gmail.com. Para cambiarlo, edita CONFIG.email en script.js.
+4. El catálogo es demostrativo. Sustituye los productos y descripciones por los realmente vendidos, y confirma marcas, fotos, stock y certificaciones antes de publicarlo para compradores.
+5. Para Netlify, sube la carpeta cyr-seguridad-web (la que contiene index.html, styles.css y script.js).
+6. No hay pagos online ni almacenamiento de consultas. Los botones abren WhatsApp únicamente si el número está configurado.
+7. Los iconos de productos son dibujos SVG ilustrativos, no fotografías reales. El logo es provisional y tipográfico.
+8. La web usa Google Fonts; sin internet emplea tipografías alternativas.
+
+IMPORTANTE: no publiques información de contacto inventada ni afirmaciones comerciales no verificadas.
+
+VERSIÓN VISUAL 2:
+- Logotipo CyR horizontal, sin letras apiladas.
+- Fondo verde, rojo y amarillo difuminado, con transición de colores.
+- Imagen decorativa y fotos de categoría recortadas de la propuesta visual generada por IA: SON ILUSTRATIVAS, NO fotos reales de inventario.
+- WhatsApp +51 975 506 704 y correo cmicolthy@gmail.com ya configurados.
+- La web no está publicada automáticamente; subir carpeta completa a Netlify.
+
+VERSIÓN 3: fondo tricolor fijo visible mientras se desplaza la página. Las secciones tienen capas translúcidas para conservar legibilidad.
+
+V4: corregida la letra fantasma que venía incrustada en la imagen de portada.
+
+VERSIÓN 5: CINCO IMÁGENES ENVIADAS POR EL CLIENTE
+- Cascos, guantes, lentes, respiradores y filtros/cartuchos: imágenes incorporadas en assets/ como WebP.
+- Chalecos y calzado: se mantienen imágenes ilustrativas de la versión anterior.
+- Al pasar el cursor, tarjetas alternan fondos verde, amarillo y rojo suaves.
+- En pantallas táctiles se mantienen tarjetas legibles sin depender de hover.
+- Confirmar que las referencias y marcas mostradas en las fotos corresponden a productos realmente ofrecidos.
+
+V6: portada reemplazada por la imagen de seguridad industrial enviada; chalecos y calzado reemplazados por sus composiciones sobre fondo blanco. Revisar marcas y referencias antes de publicar.
+
+V7: Todas las tarjetas cambian a verde #16804a y textos blancos en hover/foco. Las imágenes mantienen sus colores y el fondo claro. No se muestra disponibilidad de stock no verificada.
+
+V8: tarjetas crecen 3.5% con animación suave al pasar el cursor, conservan el fondo verde y letras blancas; botón flotante volver arriba al desplazarse; logotipo tricolor con degradado sin franjas rígidas; efecto leve de zoom en foto principal.
+
+V9: Conócenos ampliado sin atribuir años o trayectoria no confirmados; catálogo horizontal sin filtros, con botones y barra; eliminada sección Protección con propósito; pasos en verde oscuro; cierre de contacto; botón volver arriba directo con un clic.\n
+V10: Volver arriba con desplazamiento suave visible, respetando accesibilidad de movimiento reducido.
+
+V11: boton volver arriba con animacion tipo ascensor de 1.15 a 2 segundos, independiente del scroll suave nativo.
+
+V12: Navegación animada tipo ascensor para enlaces internos (Nosotros, Catálogo, Cómo cotizar, Contacto, botones, logo), conservando el ritmo de V11. Respeta movimiento reducido.
+
+V13: enlaces internos interceptados en fase de captura, animación de ascensor con requestAnimationFrame y scroll-behavior vertical forzado a auto para evitar saltos.
+
+V14: todos los enlaces internos y volver arriba usan la misma animación por fotogramas de V11. Archivos CSS/JS versionados para evitar caché.
